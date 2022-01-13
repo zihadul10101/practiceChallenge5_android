@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/main"
+    tools:context=".MainActivity">
+
+<ImageView
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/cansle"
+    android:layout_margin="20dp"
+    />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="380dp"
+    android:layout_margin="27dp"
+    android:orientation="vertical"
+    android:weightSum="5"
+    android:background="#FFFFFF"
+    android:layout_alignParentBottom="true"
+  >
+<!--    1st box-->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    >
+    <ImageView
+    android:layout_width="60dp"
+    android:layout_height="60dp"
+    android:src="@drawable/five"
+    android:layout_marginLeft="15dp"
+    android:layout_gravity="center"
+  />
+   <LinearLayout
+       android:layout_width="260dp"
+       android:layout_height="60dp"
+       android:orientation="vertical"
+       android:background="#FFFFFF"
+       android:layout_margin="6dp"
+       >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="#practiceChallenge5"
+           android:textSize="25dp"
+           android:textStyle="bold"
+
+           android:layout_gravity="center"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="13 Junary,2022 8:20AM"
+           android:textSize="19dp"
+           android:textStyle="normal"
+          android:layout_marginTop="2dp"
+           android:layout_gravity="center"/>
+
+
+   </LinearLayout>
+
+
+</LinearLayout>
+<!--    2nd box-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/play_button"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_margin="6dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Embed Video Plyer"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Impleyment A video Plyer"
+                android:textSize="19dp"
+                android:textStyle="normal"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+<!--    3rd box-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/music"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_margin="6dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Video PlayList Show"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Playlist with youtube plyer"
+                android:textSize="19dp"
+                android:textStyle="normal"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+<!--    4th box-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:background="#FFFFFF"
+        >
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/web"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="60dp"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:layout_margin="6dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convert Web To App"
+                android:textSize="25dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Convert web into app"
+                android:textSize="19dp"
+                android:textStyle="normal"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+<!--    5th box-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:weightSum="2"
+        android:background="#FFFFFF"
+        >
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="75dp"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    >
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/zihad"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center"
+        />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="75dp"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zihadul Islam"
+        android:textSize="25dp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Your Host"
+        android:textSize="19dp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_marginTop="2dp"
+        />
+
+</LinearLayout>
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:layout_margin="1dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="message"
+                android:textSize="21dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+               android:layout_marginRight="4dp"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+</RelativeLayout>
