@@ -8,12 +8,15 @@
     android:id="@+id/main"
     tools:context=".MainActivity">
 
-<ImageView
-    android:layout_width="50dp"
-    android:layout_height="50dp"
-    android:src="@drawable/cansle"
-    android:layout_margin="20dp"
-    />
+    <ImageView
+        android:id="@+id/cansel"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/cansle" />
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -21,7 +24,7 @@
     android:layout_margin="27dp"
     android:orientation="vertical"
     android:weightSum="5"
-    android:background="#FFFFFF"
+    android:background="@drawable/red_button"
     android:layout_alignParentBottom="true"
   >
 <!--    1st box-->
@@ -114,6 +117,7 @@
     </LinearLayout>
 <!--    3rd box-->
     <LinearLayout
+        android:id="@+id/plyayList"
         android:layout_width="match_parent"
         android:layout_height="30dp"
         android:orientation="horizontal"
@@ -205,15 +209,14 @@
         android:layout_height="30dp"
         android:orientation="horizontal"
         android:layout_weight="1"
-        android:weightSum="2"
         android:background="#FFFFFF"
         >
 <LinearLayout
     android:layout_width="wrap_content"
-    android:layout_height="75dp"
-    android:layout_weight="1"
+    android:layout_height="70dp"
     android:background="#FFFFFF"
     android:orientation="horizontal"
+
     >
     <ImageView
         android:layout_width="60dp"
@@ -224,25 +227,25 @@
         />
 
 <LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="75dp"
+    android:layout_width="150dp"
+    android:layout_height="70dp"
     android:orientation="vertical"
+    android:layout_marginLeft="20dp"
+
     >
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Zihadul Islam"
+        android:text="Zihadul"
         android:textSize="25dp"
         android:textStyle="bold"
-
-        android:layout_gravity="center"/>
+/>
     <TextView
         android:layout_width="190dp"
         android:layout_height="wrap_content"
         android:text="Your Host"
         android:textSize="19dp"
         android:textStyle="normal"
-        android:gravity="center"
         android:layout_marginTop="2dp"
         />
 
@@ -253,7 +256,6 @@
             android:id="@+id/sendMessage"
             android:layout_width="wrap_content"
             android:layout_height="75dp"
-            android:layout_weight="1"
             android:background="#FFFFFF"
             android:layout_margin="1dp"
             >
